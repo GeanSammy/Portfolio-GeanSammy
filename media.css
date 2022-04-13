@@ -1,0 +1,107 @@
+@media screen and (max-width: 760px) and (min-width: 360px) {
+
+    body {
+        background: #333;
+    }
+
+    .logo {
+        color: white;
+        margin-left: -3px;
+    }
+
+    .active {
+        color: black;
+    }
+
+    nav {
+        background: #333;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    div .conteudo-texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto {
+        margin-left: 56px;
+    
+    }
+
+    a .btnl {
+        margin-left: 16px;
+    }
+
+    a .btnl2 {
+        margin-right: -18px;
+    }
+
+    .imgbg {
+        display: none;
+    }
+
+    div .texto-sobre {
+        margin-left: 20px;
+        text-align: center;
+        align-self: center;
+        width: 260px;
+    }
+
+    #sobre {
+       margin-top: -45px;
+    }
+
+    #habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 43px;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 350px;
+    }
+
+    .conteudo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1099px;
+        margin-top: 1100px;
+    }
+
+    .img-tec {
+        display: none;
+    }
+    
+    #ctt {
+        margin-top: -790px;
+        margin-left: 18px;
+        width: 370px;
+    }
+
+    .contato {
+        width: 350px;
+        margin-left: 28px;
+    }
+
+    .-contato {
+        margin-left: 60px;
+    }
+
+    .foto-contato {
+        margin-left: 77px;
+    }
+
+    .icones-contato {
+        margin-left: -53px;
+    }
+
+}

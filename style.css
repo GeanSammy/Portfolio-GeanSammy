@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./imagens/bg2.png);
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url(./imagens/bg2.png);
+    height: 95vh;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5px;
+}
+
+/* Estilo Navegador */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+.lista:hover {
+    filter: drop-shadow(2px 4px 8px black);
+}
+
+.logo {
+    margin-left: 20px;
+    font-family: 'Concert One', cursive;
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px black;
+    border-left: none;
+    border-top: none;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+
+.active {
+    font-weight: bold;
+    color: #262525;
+}
+
+.active:hover {
+    filter: drop-shadow(2px 4px 8px white);
+}
+
+/* Estilo Textos */
+
+.conteudo-texto p:nth-child(1){
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.conteudo-texto p:nth-child(2) {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(3) {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    color: #373636;
+    font-size: 30px;
+    line-height: 30px;
+} 
+
+.conteudo-texto {
+    margin: 45px 0px 25px;
+}
+
+.conteudo-texto {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.conteudo-texto button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.btnl {
+    border: 2px solid #373636;
+    box-shadow: 2px 2px 2px black;
+    background-color: #f2f2f2;
+    color: #373636;
+}
+
+.btnl2 {
+    cursor: pointer;
+    background-color: #373636;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 2px black;
+    color: #f2f2f2;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+/* Estilo da Imagem */
+
+.imgbg {
+    height: 490px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    position: absolute;
+    bottom: 40px;
+    left: 67%;
+    transform: translateX(-70%);
+    filter: drop-shadow(2px 4px 8px white);
+}
+
+#conteudo-sobre {
+    border: 3px solid #6d6d6d;
+    border-top: none;
+    border-right: none;
+    width: 76%;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px black;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
+
+.texto-sobre {
+    padding-top: 60px;
+    width: 550px;
+    margin-left: 160px;
+}
+
+#conteudo-sobre p:nth-child(1) {
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 0px;
+}
+
+.texto-sobre button {
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #262525;
+}
+
+/* Projetos */
+
+.btnh {
+    border: none;
+    background-color: #6d6d6d;
+    color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.habilidades-textos, .box2 {
+    width: 350px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 50px;
+    top: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-bottom: none;
+    filter: drop-shadow(2px 2px 2px rgb(#333));
+}
+
+.box2 {
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 350px;
+    height: 512px;
+}
+
+.habilidades-textos {
+    background-image: url(./imagens/services-1.png);
+}
+
+.box2 {
+    background-image: url(./imagens/servies-3.png);
+}
+
+.hds {
+    margin-top: -30px;
+}
+
+.detalhes {
+    margin-left: 8px;
+}
+
+.hds,
+.detalhes {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+.projeto1 {
+    padding-top: 15px;
+    border-radius: 50px;
+    max-width: 340px;
+    filter: drop-shadow(2px 2px 8px rgb(252, 108, 108));
+}
+
+.projeto2 {
+    filter: drop-shadow(2px 2px 8px rgb(209, 10, 10));
+    border-radius: 60px;
+    max-width: 340px;
+}
+
+/* Tecnologias conhecidas */
+
+.conteudo-box {
+    border: 2px solid black;
+    border-bottom: none;
+    transform: translate(65%, -260%);
+    width: 350px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    margin-left: 700px;
+    background-color: #6d6d6d;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+
+.headid {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.headid2 {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+div .icones {
+    justify-content: center;
+    padding: 70px;
+}
+
+.icone-1 {
+    filter: drop-shadow(2px 4px 8px rgba(255, 145, 0, 0.979));
+}
+
+.icone-2 {
+    filter: drop-shadow(2px 4px 8px rgb(36, 36, 255));
+}
+
+.icone-3 {
+    filter: drop-shadow(2px 4px 8px rgb(223, 223, 0));
+}
+
+.icone-4 {
+    filter: drop-shadow(2px 4px 8px rgba(251, 255, 0, 0.781));
+}
+
+.img-tec {
+    margin-left: -54px;
+    margin-top: 90px;
+    max-width: 520px;
+    filter: drop-shadow(2px 2px 2px rgb(104, 90, 230));
+}
+
+.p-icone1 {
+    text-align: center;
+}
+
+/* CONTATO */
+
+#ctt {
+    border-top: 2px solid black;
+    align-items: center;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    padding: 15px;
+    width: 450px;
+    margin-left: 455px;
+}
+
+.-contato {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: -100px;
+}
+
+.contato {
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 455px;
+    margin-bottom: 100px;
+}
+
+.foto-contato {
+    border-radius: 200px;
+    max-width: 190px;
+    margin-left: 132px;
+}
+
+.icone-w {
+    transform: scale(1.1);
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 135px;
+    filter: drop-shadow(2px 4px 8px rgb(0, 255, 0));
+}
+
+.icone-l {
+    transform: scale(1.1);
+    padding: 6px;
+    filter: drop-shadow(2px 4px 8px rgb(0, 134, 223));
+}
+
+.icone-i {
+    transform: scale(1.1);
+    padding: 6px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 16, 56));
+}
+
+.icone-w,
+.icone-l,
+.icone-i:hover {
+    transform: scale(1.1);
+}
